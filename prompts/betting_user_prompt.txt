@@ -1,0 +1,20 @@
+Description: Template for the user message to request a betting prediction for a single game. Contains placeholders to be filled by the script.
+
+Analyze this matchup and provide a simulation-based recommendation based on expected value (EV):
+
+$away_team at $home_team ($commence_time)
+$odds_info
+
+Using the implied win chances listed above as the baseline, estimate your true win probability for each team and determine if selecting either side yields positive EV versus the baseline. Base your assessment on recent performance indicators, matchup context, and variance considerations. Provide a concise recommendation accordingly.
+
+Return ONLY a single JSON object (no prose, no backticks) with this exact structure and keys:
+{
+  "predicted_winner": string,            // Team name
+  "confidence": "low" | "medium" | "high",
+  "reasoning": string                    // Brief analytical explanation (1-2 sentences)
+}
+
+Constraints:
+- Do not include any text outside the JSON object.
+- Keep reasoning concise (max 2 sentences).
+- Outputs are for research/simulation only and not advice.

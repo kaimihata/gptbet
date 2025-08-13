@@ -1,3 +1,6 @@
-Game,Commence Time,Predicted Winner,Bet Type,Bet Amount Percentage,Confidence,Reasoning
-Philadelphia Phillies at Cincinnati Reds,2025-08-11T22:11:00Z,Philadelphia Phillies,moneyline,1.0,low,
-Minnesota Twins at New York Yankees,2025-08-11T23:06:00Z,Minnesota Twins,moneyline,1.0,low,
+Game,Commence Time,Predicted Winner,Bet Type,Confidence,Reasoning
+Los Angeles Dodgers at Los Angeles Angels,2025-08-13T01:38:42Z,Los Angeles Dodgers,moneyline,medium,"Dodgers’ strong recent road performance and favorable pitching matchup suggest a true win probability above the 48.9% baseline, yielding positive EV."
+San Diego Padres at San Francisco Giants,2025-08-13T01:46:00Z,San Francisco Giants,moneyline,low,"We estimate the Giants’ true win probability at around 6% versus a 3.7% baseline, yielding a slight positive EV, but high variance keeps confidence..."
+Tampa Bay Rays at Oakland Athletics,2025-08-13T02:06:00Z,Tampa Bay Rays,moneyline,medium,"Our model projects the Rays at about a 70% win probability versus a 65% market implied chance, driven by stronger starting pitching matchups and Oa..."
+Washington Nationals at Kansas City Royals,2025-08-13T18:10:00Z,Washington Nationals,moneyline,medium,"Nationals’ recent strong starting pitching and Royals’ offensive slump suggest an adjusted win probability of around 40%, exceeding the 37.5% basel..."
+Pittsburgh Pirates at Milwaukee Brewers,2025-08-13T18:10:00Z,Milwaukee Brewers,moneyline,medium,"Home-field advantage and a revitalized offense push the Brewers’ true win probability to around 68%, exceeding the 64.6% implied and yielding posit..."
